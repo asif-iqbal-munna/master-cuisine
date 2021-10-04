@@ -25,7 +25,7 @@ function App() {
         <Route exact path="/course">
           <Courses />
         </Route>
-        <Route exact path="/recipe">
+        <Route exact path="/recipes">
           <Recipes />
         </Route>
         <Route exact path="*">
