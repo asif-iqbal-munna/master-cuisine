@@ -1,5 +1,6 @@
 import React from "react";
 import { Button, Card, Container, Row } from "react-bootstrap";
+import Rating from "react-rating";
 import { Link } from "react-router-dom";
 import useCourses from "../hooks/UseCourses";
 import "./HomeCourses.css";
@@ -29,6 +30,12 @@ const HomeCourses = () => {
               <Card.Text className="fs-5">
                 {course.students}+ Students From Different Countries
               </Card.Text>
+              <Rating className='text-warning'
+                emptySymbol="far fa-star"
+                fullSymbol="fas fa-star"
+                initialRating={course.rating}
+                readonly
+              />({course.students / 2})
             </Card.ImgOverlay>
           </Card>
         ))}

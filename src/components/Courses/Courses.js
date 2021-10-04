@@ -1,8 +1,10 @@
 import React from "react";
 import { Card, Container, Row } from "react-bootstrap";
+import Rating from "react-rating";
 import useCourses from "../hooks/UseCourses";
 
 const Courses = () => {
+  // Getting data from useCourses hook
   const [courses] = useCourses();
   return (
     <Container className="my-5">
@@ -25,6 +27,13 @@ const Courses = () => {
               <Card.Text className="fs-6">
                 {course.students}+ Students From Different Countries
               </Card.Text>
+              <Rating className='text-warning'
+                emptySymbol="far fa-star"
+                fullSymbol="fas fa-star"
+                initialRating={course.rating}
+                readonly
+              />
+              ({course.students / 5})
             </Card.ImgOverlay>
           </Card>
         ))}

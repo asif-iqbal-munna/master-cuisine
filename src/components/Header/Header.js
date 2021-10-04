@@ -11,7 +11,6 @@ const Header = () => {
           <NavLink className="navbar-brand p-color fw-bolder fs-3" to="/">
             Master Cuisine
           </NavLink>
-          {/* <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand> */}
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="ms-auto">

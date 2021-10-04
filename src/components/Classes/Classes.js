@@ -4,6 +4,7 @@ import { useState } from "react";
 import { Button, Card, Col, Container, Row } from "react-bootstrap";
 
 const Classes = () => {
+  //  Declaring state & Getting data from programs json file
   const [programs, setPrograms] = useState([]);
   useEffect(() => {
     fetch("./programs.json")
