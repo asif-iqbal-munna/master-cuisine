@@ -28,9 +28,6 @@ function App() {
         <Route exact path="/recipes">
           <Recipes />
         </Route>
-        <Route exact path="*">
-          <NotFound />
-        </Route>
       </Switch>
       <Footer />
     </Router>

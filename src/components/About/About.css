@@ -1,0 +1,9 @@
+.img-border {
+    border-top: 15px solid #ff9f1a;
+    border-top-right-radius: 50px;
+}
+
+.img-border-left {
+    border-bottom: 15px solid #ff9f1a;
+    border-bottom-left-radius: 50px;
+}
