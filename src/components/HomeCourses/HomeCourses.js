@@ -1,0 +1,53 @@
+import React from "react";
+import { useEffect } from "react";
+import { useState } from "react";
+import { Button, Card, Container, Row } from "react-bootstrap";
+import { Link } from "react-router-dom";
+import "./HomeCourses.css";
+
+const HomeCourses = () => {
+  const [courses, setCourses] = useState([]);
+  useEffect(() => {
+    fetch("./homeCourse.json")
+      .then((resp) => resp.json())
+      .then((data) => setCourses(data));
+  }, []);
+  //   console.log(courses);
+  return (
+    <Container className="my-5">
+      <h2 className="text-dark text-capitalized fw-blod fs-2 text-center">
+        Courses
+      </h2>
+      <Row xs={1} md={2}>
+        {courses.map((course) => (
+          <Card
+            className="text-white border-0 p-2 s-color"
+            key={course.id}
+          >
+            <div className="bg-dark">
+              <Card.Img
+                className="opacity-50"
+                src={course.img}
+                alt="Card image"
+              />
+            </div>
+            <Card.ImgOverlay className="mt-5">
+              <Card.Title className="fs-2">{course.name}</Card.Title>
+              <Card.Text className='fs-3'>${course.price}</Card.Text>
+              <Card.Text className= 'fs-5'>
+                {course.students}+ Students From Different Countries
+              </Card.Text>
+            </Card.ImgOverlay>
+          </Card>
+        ))}
+      </Row>
+      <Link to="/course" className='text-decoration-none'>
+        <Button className="btn d-block mx-auto mt-3 s-color btn-bg border-0">
+          View All Courses
+        </Button>
+      </Link>
+    </Container>
+  );
+};
+
+export default HomeCourses;

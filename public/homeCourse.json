@@ -1,0 +1,34 @@
+[
+    {
+        "id": "1001",
+        "name": "Italian Cuisine",
+        "price": 899,
+        "rating": 5,
+        "students": 3448,
+        "img":"https://images.unsplash.com/photo-1590577976322-3d2d6e2130d5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
+    },
+    {
+        "id": "1003",
+        "name": "French Cuisine",
+        "price": 799,
+        "rating": 4,
+        "students": 1948,
+        "img": "https://images.unsplash.com/photo-1502364271109-0a9a75a2a9df?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=870&q=80"
+    },
+    {
+        "id": "1004",
+        "name": "Maxican Cuisine",
+        "price": 999,
+        "rating": 5,
+        "students": 4867,
+        "img": "https://images.unsplash.com/photo-1477763858572-cda7deaa9bc5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=784&q=80"
+    },
+    {
+        "id": "1008",
+        "name": "Indian Cuisine",
+        "price": 399,
+        "rating": 3,
+        "students": 5454,
+        "img": "https://images.unsplash.com/photo-1470114755716-3e1124c6c3bd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1398&q=80"
+    }
+]

@@ -39,13 +39,13 @@ const Header = () => {
             </NavLink>
             <NavLink
               className="nav-link fs-5 s-color"
-              to="/service"
+              to="/course"
               activeStyle={{
                 fontWeight: "bold",
                 color: "#ff9f1a",
               }}
             >
-              Service
+              Courses
             </NavLink>
             <NavLink
               className="nav-link fs-5 s-color"
