@@ -1,0 +1,71 @@
+[
+    {
+        "id": "1001",
+        "name": "Italian Cuisine",
+        "price": 899,
+        "rating": 5,
+        "students": 3448
+    },
+    {
+        "id": "1002",
+        "name": "Spanish Cuisine",
+        "price": 699,
+        "rating": 4,
+        "students": 2348
+    },
+    {
+        "id": "1003",
+        "name": "French Cuisine",
+        "price": 799,
+        "rating": 4,
+        "students": 1948
+    },
+    {
+        "id": "1004",
+        "name": "Maxican Cuisine",
+        "price": 999,
+        "rating": 5,
+        "students": 4867
+    },
+    {
+        "id": "1005",
+        "name": "Greek Cuisine",
+        "price": 899,
+        "rating": 3,
+        "students": 1397
+    }{
+        "id": "1006",
+        "name": "Thai Cuisine",
+        "price": 599,
+        "rating": 3,
+        "students": 2534
+    },
+    {
+        "id": "1007",
+        "name": "Portuges Cuisine",
+        "price": 699,
+        "rating": 4,
+        "students": 3243
+    },
+    {
+        "id": "1008",
+        "name": "Indian Cuisine",
+        "price": 399,
+        "rating": 3,
+        "students": 5454
+    },
+    {
+        "id": "1009",
+        "name": "Turkish Cuisine",
+        "price": 799,
+        "rating": 5,
+        "students": 6545
+    },
+    {
+        "id": "1010",
+        "name": "Vietnam's Cuisine",
+        "price": 599,
+        "rating": 4,
+        "students": 2978
+    }
+]
