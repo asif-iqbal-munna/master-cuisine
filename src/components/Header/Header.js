@@ -47,13 +47,13 @@ const Header = () => {
               </NavLink>
               <NavLink
                 className="nav-link fs-5 s-color"
-                to="/recipes"
+                to="/class"
                 activeStyle={{
                   fontWeight: "bold",
                   color: "#ff9f1a",
                 }}
               >
-                Recipes By Cuisine
+                Classes
               </NavLink>
             </Nav>
           </Navbar.Collapse>

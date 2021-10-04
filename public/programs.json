@@ -1,0 +1,32 @@
+[
+    {
+        "name": "Baking & Pastry",
+        "id": "111",
+        "img": "https://images.unsplash.com/photo-1506368083636-6defb67639a7?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8YmFraW5nfGVufDB8MXwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+    },
+    {
+        "name": "Fish, Meat & Poultry",
+        "id": "222",
+        "img": "https://images.unsplash.com/photo-1629723448738-03475a1e536d?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8Y29va2VkJTIwZmlzaHxlbnwwfDF8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+    },
+    {
+        "name": "International Cuisine",
+        "id": "333",
+        "img": "https://images.unsplash.com/photo-1517314687957-13af800de1c5?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8aW50dGVybmF0aW9uYWwlMjBjdWlzaW5lfGVufDB8MXwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+    },
+    {
+        "name": "Seafood & Wine",
+        "id": "555",
+        "img": "https://images.unsplash.com/photo-1529543544282-ea669407fca3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8c2VhZm9vZCUyMCUyNiUyMHdpbmV8ZW58MHwxfDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+    },
+    {
+        "name": "Exotic Cuisines",
+        "id": "666",
+        "img": "https://images.unsplash.com/photo-1501262139015-998ac3d1e0be?ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8ZnJ1aXQlMjBkaXNofGVufDB8MXwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+    },
+    {
+        "name": "Deserts",
+        "id": "444",
+        "img": "https://images.unsplash.com/photo-1499639074945-fd03f7b1a09e?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8ZGVzZXJ0cyUyMGZvb2R8ZW58MHwxfDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+    }
+]

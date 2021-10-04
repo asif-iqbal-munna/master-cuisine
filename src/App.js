@@ -5,8 +5,7 @@ import Courses from "./components/Courses/Courses";
 import Footer from "./components/Footer/Footer";
 import Header from "./components/Header/Header";
 import Home from "./components/Home/Home";
-import NotFound from "./components/NotFound/NotFound";
-import Recipes from "./components/Recipes/Recipes";
+import Classes from "./components/Classes/Classes";
 
 function App() {
   return (
@@ -25,8 +24,8 @@ function App() {
         <Route exact path="/course">
           <Courses />
         </Route>
-        <Route exact path="/recipes">
-          <Recipes />
+        <Route exact path="/class">
+          <Classes />
         </Route>
       </Switch>
       <Footer />
