@@ -35,7 +35,7 @@ const HomeCourses = () => {
                 fullSymbol="fas fa-star"
                 initialRating={course.rating}
                 readonly
-              />({course.students / 2})
+              />({parseInt(course.students / 5)})
             </Card.ImgOverlay>
           </Card>
         ))}
